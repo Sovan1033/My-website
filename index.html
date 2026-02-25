@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sovan Biswas</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sovan Biswas</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="Sovan's profile pic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Sovan Biswas</h1>
+            <p class="section_text_p2">A Creator</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2 " onclick="window.open('./assets/Resume 2025.pdf')">Download CV</button>
+                <button class="btn btn-color-2 " onclick="location.href='./#contact'"">Contact Info</button>
+            </div>
+            <br>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/sovan-biswas-1270181b8/'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" 
+                onclick="location.href='https://github.com/So-vain-hoon'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/about-pic.png" alt="profile picture" class="about-pic" >
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon"
+                        class="icon"/>
+                        <h3>Experience</h3>
+                        <p >Photographer <br>Graphic Designer <br>Video Editor 
+                            <br>Frontend Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon"
+                        class="icon"/>
+                        <h3>Education</h3>
+                        <p>Kalinga Institue of Industrial Technology</p> 
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> Hello!
+                        <br>                        
+                        I am a freelance editor and developer passionate about creating impactful content and applications. My goal is to deliver clear, engaging concepts that captivate your audience, ensuring they stay engaged throughout the entire experience.                        
+                        I strive to make sure your message is conveyed effectively to your viewers. Whether it's app development or media creation, I thrive on the creative process and the sense of accomplishment that comes with completing a project. The dopamine rush from achieving these milestones is truly the best kind of motivation.
+                        <br>                        
+                        Thank you for visiting my website. I built this site from scratch in about a week, learning HTML, CSS, and a bit of JavaScript along the way. My aim is to reach out and attract more clients, following the wisdom of Irfan Junejo: quality comes with quantity.
+                        <br>
+                        I look forward to collaborating with you.
+                        <br>
+                        <br>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#experience'">
+       
+    
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <br>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">CODING LANGUAGES</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div> 
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div> 
+                                    <h3>CSS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div> 
+                                    <h3>JAVA</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div> 
+                                    <h3>C</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div> 
+                                    <h3>C++</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div> 
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                </div>
+            </div>
+        </div>
+                
+                <div class="about-container">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">MEDIA CREATOR</h2>
+                            <div class="article-container">
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                    <div> 
+                                        <h3>ADOBE PREMIERE PRO</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                    <div> 
+                                        <h3>AFTER EFFECTS</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                    <div> 
+                                        <h3>ADOBE PHOTOSHOP</h3>
+                                        <p>Advance</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                    <div> 
+                                        <h3>LIGHTROOM CLASSIC</h3>
+                                        <p>Advance</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                    <div> 
+                                        <h3>GRAPHIC DESIGNING</h3>
+                                        <p>Advance</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                    <div> 
+                                        <h3>MOTION GRAPHICS AND ANIMATION</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                            </div>
+                    </div>
+                </div>      
+
+                
+                    
+              
+        
+        <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.jpg" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Photography</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.
+                        href='https://drive.google.com/drive/folders/10eJgjXB4pF6R5I0xG9LohbdbVip-KVEM?usp=drive_link'">Drive</button>
+                    </div>         
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Video Editing</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.
+                        href='https://drive.google.com/drive/folders/14s0lC7Zn9t4-LxiWpZCVtvhlthm7MD1E?usp=drive_link'">Drive</button>
+                    </div>         
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Graphic Designing</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.
+                        href='https://drive.google.com/drive/folders/1xoJXoBayn6Fv_VZPC56UB6PJg-3l36QN?usp=drive_link'">Drive</button>
+                    </div>         
+                </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon .email.icon">
+                <p><a href="mailto:sovanbis.24.2003@gmail.com">sovanbis.24.2003@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/sovan-biswas-1270181b8/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <p>Copyright &#169; 2024 Sovan Biswas. All Rights Reserved</p> 
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
